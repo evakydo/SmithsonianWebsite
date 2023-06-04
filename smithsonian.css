@@ -1,0 +1,309 @@
+#body{
+	background-color:rgb(14,127,147);
+}
+.main-header{
+	background-color:black;
+	height:50px;
+}
+.blue-header{
+	height:0px;
+}
+.container-fluid{
+	margin-left:3.5%;
+	margin-right:3.5%;
+}
+.logo{
+	position: relative;
+	top:13px;
+	left: 65px;
+}
+#navigation{
+	height: 100%;
+	width: 100%;
+}
+#navigation ul{
+	text-align: right;
+	margin-bottom:0px;
+}
+#navigation ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+#navigation ul li a { 
+	vertical-align: center;
+	letter-spacing: .7px;
+	font-size:13px;
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+#nav{
+	padding: 15px 8px 15px 8px;
+}
+#donate {
+	padding: 15px 15px 15px 15px;
+	background-color:rgb(209,73,1);
+}
+#navsearch{
+	padding: 8px 10px 8px 10px;
+}
+.photo1{
+	position: relative;
+	width:100%;
+}
+#national{
+	position: absolute;
+  	top: -3%;
+  	left: -0.4%;
+  	width:17.5%;	
+}
+
+#smallnavigation{
+	display:none;
+}
+#text{
+	color:white;
+	position: absolute;
+	bottom:25%;
+	left: 18%;
+}
+.discover-the{
+	font-size:50px;
+}
+.admission{
+	color:rgb(209,73,1);
+	font-size:15px;
+}
+.eletext{
+	font-size:15px;
+}
+#plan a{
+	color:white;
+	text-decoration:none;
+}
+.circle2{
+	display:inline-block;
+	height: 60px;
+	width: 60px;
+	background-color: white;
+	border-radius: 50%;
+	border: 2px solid rgb(209,73,1);
+}
+.grey-bar{
+	color:white;
+	background-color: rgb(81,83,73);
+	height:80px;
+	text-align: center;
+	padding-top: 1%;
+}
+#visit{
+	color: white;
+	text-decoration: none;
+	padding-left:2.5%;
+}
+.camp-croods{
+	background-color: white;
+	height:480px;
+}
+#croods-image{
+	position: absolute;
+	padding-left:200px;
+	padding-top:80px;
+	width:90%;
+}
+#get-info{
+	color:rgb(209,73,1);
+	text-decoration:none;
+	border: 2px solid rgb(209,73,1);
+}
+.exhibitions{
+	background-color: white;
+	height:800px;
+	overflow: hidden;
+}
+#view-exhibits{
+	text-decoration: none;
+}
+#tree-exhibition{
+	width:135%;
+}
+.virtual-tour{
+	position: absolute;
+  	bottom: 8px;
+  	left: 16px;
+}
+#first-exhibition{
+	width:125%;
+}
+.first-floor{
+	position: absolute;
+  	top: 25%;
+  	left: 10%;
+}
+#second-exhibition{
+	width:135%;
+}
+.second-floor{
+	position: absolute;
+  	bottom: 8px;
+  	left: 16px;
+}
+#mars{
+	position: relative;
+	width:99%;
+	overflow: hidden;
+	padding-left:15px;
+}
+#mars-circle{
+	display:inline-block;
+	height: 400px;
+	width: 400px;
+	background-color: rgb(14,127,147);
+	border-radius: 50%;
+	position: absolute;
+  	bottom: 20%;
+  	left: 20%;
+}
+.today{
+	color:white;
+	position: absolute;
+  	top: 30%;
+  	left: 23%;
+}
+.last{
+	background-color: white;
+	height:450px;
+}
+.row{
+	padding-left:12%;
+	padding-right:12%;
+	padding-bottom: 3%;
+}
+#pictures{
+	position: absolute;
+  	bottom: 8px;
+  	left: 16px;
+  	color:white;
+  	padding-left:5%;
+}
+#featured{
+	font-size:45px;
+	color:black;
+}
+#view-exhibits{}
+#last-text{
+	padding-left:20%;
+	padding-right:20%;
+	font-size:12px;
+	letter-spacing: 1px;
+}
+#understanding {
+	margin:0px;
+	letter-spacing: 1px;
+	color:black;font-size: 43px;
+	padding-top:3%;
+	padding-left:12%;
+	padding-right:12%;
+	margin-bottom:3%;
+}
+@media screen and (max-device-width:768px){
+	#navigation{display:none;}
+	#smallnavigation{
+		position: absolute;
+  		top:0%;
+  		left: 0%;
+		display: inline;
+		height: 100%;
+		width: 100%;
+	}			
+	#smallnavigation ul{
+		text-align: right;
+		margin-bottom: 0px;
+	}
+	#smallnavigation ul li{
+		list-style: none;
+		display: inline-block;
+		padding-left: 7px;
+	}
+	#smallnavigation ul li a { 
+		vertical-align: center;
+		letter-spacing: .7px;
+		font-size:18px;
+  		text-decoration: none;
+  		display: block;
+	}
+	#menu{
+		color:rgb(209,73,1);
+		background-color:white;
+		padding: 15px 20px 15px 20px;
+	}
+	#search{
+		background-color:rgb(209,73,1);
+		padding: 14px 10px 10px 10px;
+	}
+	#plan-link{display:none;}
+	#mars{display:none;}
+	.camp-croods{height:2000px;}
+	.exhibitions{height:2000px;}
+	.last{height:1700px;}
+}
+@media screen and (max-device-width:768px) and (min-device-width:500px){
+	.blue-header{
+		height:25px;
+	}
+	.container-fluid{
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+	.photo1{
+		width:155%;
+	}
+	#text{
+		bottom:10%;
+		left: 10%;
+	}
+	.discover-the{
+		font-size:60px;
+	}
+	.eletext{font-size: 18px;}
+	.admission{font-size:18px;}
+	#national{
+		width:25%;
+		left:-6px;
+	}
+}
+@media screen and (max-device-width:400px) { 
+	.main-header{
+		height:100px;
+	}
+	.logo {
+		height:70px;
+		margin-left:20%; 
+		margin-right:20%;
+	}
+	.blue-header{
+		height:0px;
+	}
+	.container-fluid{
+		margin: 0px;
+		padding:0px;
+	}
+	.col-md-12{
+		padding:0px;
+	}
+	#text{display:none;}
+	#national{
+		width:35%;
+		left:-4%;
+		top:-5%;
+	}
+	#featured{font-size:60px;}
+	#view-exhibits{font-size:30px;}
+	.virtual-tour{width:110%;}
+	.first-floor{width:110%;}
+	.second-floor{width:110%;}
+	#last-text{font-size: 30px;}
+	.row{font-size: 40px;}
+	#understanding { font-size:60px; }
+}
